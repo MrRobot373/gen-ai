@@ -28,6 +28,10 @@ export default async function RootLayout({
           <ModalProvider />
           {children}
         </body>
+        <footer className='py-4 text-center font-medium '>
+            <p>&copy; 2023. Created by Yash Badgujar and Niharika Rindhe.</p>
+        </footer>
+        
       </html>
     </ClerkProvider>
   );
